@@ -8,4 +8,4 @@ class TestCalc:
 
     def test_sub(self):
         assert 5 == Calc.sub(6, 1)
-        assert 10 == Calc.sub(20, 10)
+        assert 10 == Calc.sub(20,10)
