@@ -1,1 +1,1 @@
-# CI / CD calculator
+# CI / CD calculator with tests
