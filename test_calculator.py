@@ -9,3 +9,7 @@ class TestCalc:
     def test_sub(self):
         assert 5 == Calc.sub(6, 1)
         assert 10 == Calc.sub(20, 10)
+
+    def test_mul(self):
+        assert 100 == Calc.mul(10, 10)
+        assert 50 == Calc.mul(5, 10)
