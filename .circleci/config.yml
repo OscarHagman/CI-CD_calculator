@@ -12,7 +12,7 @@ jobs:
           name: Install dependecies
           command: |
             pwd
-            echo ${pwd}
+            ls -a /home/circleci/project/
             pip3 install -r ../requirements.txt
       - run:
           name: run tests
