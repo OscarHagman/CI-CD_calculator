@@ -10,6 +10,8 @@ jobs:
       - checkout
       - run:
           name: Install dependecies
+          command: pwd
+          command: echo ${pwd}
           command: pip3 install -r ../requirements.txt
       - run:
           name: run tests
