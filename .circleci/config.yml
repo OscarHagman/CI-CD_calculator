@@ -4,13 +4,13 @@ jobs:
     docker:
       - image: circleci/python:3.8.6
       
-    working_directory: ~/repo
+    
 
     steps:
       - checkout
       - run:
           name: Install dependecies
-          command: pip3 install -r requirements.txt
+          command: pip3 install -r ../requirements.txt
       - run:
           name: run tests
           command: |
